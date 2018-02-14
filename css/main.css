@@ -1,0 +1,496 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+   a:visited, a:link, a:hover {
+       text-decoration: none;
+   }
+   .pagetop{
+     padding: 10px 0;
+   }
+   .pagetop img{
+     height: 80px;
+   }
+   .pagetop a{
+     font-size: 30px;
+     padding: 20.5px 15px;
+      line-height: 23px;
+      height: 64px;
+      color: #2196f3;
+      font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
+   }
+   .search .container{
+      background: #4a8fb8;
+      padding: 5px;
+   }
+   .search .btn-search{
+     color: #4a8fb8;
+     background: #fff;
+   }
+   .sidebar-nav .navbar li a {
+     background: linear-gradient(to bottom, #4a8fb8 0%,#2981b5 99%);
+     color: #fff;
+         margin-bottom: 1px;
+   }
+   .sidebar-nav .navbar li a:hover {
+     border-left: 3px solid #f89406;
+     color: #fff;
+   }
+   .panel-heading{
+     font-size: 2.5rem;
+   }
+   .recientes a, .menugrande a {
+    background: linear-gradient(to bottom, #fbb450 0%,#f89406 99%) !important;
+    height: 172px;
+    text-align: center;
+    /* vertical-align: middle; */
+    font-size: xx-large;
+    font-family: 'Open Sans', sans-serif;
+    padding: 70px 0 !important;
+    
+}
+
+audio::-internal-media-controls-download-button {
+    display:none;
+}
+
+audio::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+audio::-webkit-media-controls-panel {
+    width: calc(100% + 30px); 
+}
+
+.textopop{
+        color: #fff;
+    background: #4a8fb8;
+    font-size: 12px;
+}
+
+.navbar-default {
+     background-image: none !important;
+    background-color: #fff !important; 
+    border-color: #fff !important;
+     box-shadow: none !important;
+}
+   .adminmenu a{
+     background: #d9534f !important;
+     color: #fff !important;
+   }
+   .textosalt {
+       color: #4aa385;
+       font-size: 1.8rem;
+       padding-left: 10px;
+       border-left: 5px solid #f89406;
+   }
+   .tovnet{
+     font-family: 'Open Sans', sans-serif !important;
+    color: #000 !important;
+    font-weight: bold !important;
+    margin-top: 35px !important;
+    line-height: 75px !important;
+   }
+
+   .top1{
+     text-align: center !important;
+   }
+   .top2{
+     text-align: center !important;
+   }
+.btn-naranja{
+    background: #f89406;
+}
+.btn-naranja:hover{
+    background: #f89410;
+}
+   /* make sidebar nav vertical */
+@media (min-width: 768px) {
+  .top1{
+    text-align: left !important;
+  }
+  .top2{
+    text-align: right !important;
+  }
+
+  .sidebar-nav .navbar .navbar-collapse {
+    padding: 0;
+    max-height: none;
+  }
+  .sidebar-nav .navbar ul {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li {
+    float: none;
+    display: block;
+  }
+  .sidebar-nav .navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+}
+
+/*--------------------------------
+        DYNAMIC TABLE STYLE
+----------------------------------*/
+
+.table-advance tr td {
+    vertical-align: middle !important;
+}
+
+.no-border {
+    border-bottom: none;
+}
+
+.dataTables_length, .dataTables_filter {
+    padding: 15px 0;
+}
+
+.dataTables_info {
+    padding: 15px 0 0 !important;
+}
+
+.dataTables_filter {
+    float: right;
+}
+
+.dataTables_length select {
+    width: 65px;
+    padding: 5px 8px;
+}
+
+.dataTables_length label, .dataTables_filter label {
+    font-weight: 300;
+}
+
+.dataTables_filter label {
+    width: 100%;
+}
+
+.dataTables_filter label input {
+    width: 78%;
+}
+
+.border-top {
+    border-top: 1px solid #ddd;
+}
+
+.dataTables_paginate.paging_bootstrap.pagination li {
+    float: left;
+    margin: 0 1px;
+    border: 1px solid #ddd;
+    list-style: none;
+}
+
+.dataTables_paginate.paging_bootstrap.pagination li.disabled a {
+    color: #c7c7c7;
+}
+
+.dataTables_paginate.paging_bootstrap.pagination li a {
+    color: #797979;
+    padding: 5px 10px;
+    display: inline-block;
+}
+
+.dataTables_paginate.paging_bootstrap.pagination li:hover a, .dataTables_paginate.paging_bootstrap.pagination li.active a {
+    color: #fff;
+    background: #EFF0F4;
+    text-decoration: none;
+}
+
+.dataTables_paginate.paging_bootstrap.pagination li:hover,
+.dataTables_paginate.paging_bootstrap.pagination li.active {
+    border-color: #EFF0F4;
+}
+
+.dataTables_paginate.paging_bootstrap.pagination li.disabled:hover,
+.dataTables_paginate.paging_bootstrap.pagination li.disabled:hover a {
+    color: #C7C7C7;
+    background: #fff;
+    border-color: #DDDDDD;
+    cursor: no-drop;
+}
+
+.dataTables_paginate.paging_bootstrap.pagination {
+    float: right;
+    margin-bottom: 15px;
+    position: relative;
+    right: 122px;
+}
+
+
+.dataTable tr:last-child {
+    border-bottom: 1px solid #ddd;
+}
+
+.general-table .progress {
+    margin-bottom: 0;
+}
+
+.adv-table table tr td {
+    padding: 10px;
+}
+
+.adv-table table.display thead th {
+    border-bottom: 1px solid #DDDDDD;
+    padding: 10px;
+}
+
+.dataTable tr.odd.gradeA td.sorting_1, .dataTable tr.odd td.sorting_1, .dataTable tr.even.gradeA td.sorting_1 {
+    background: none;
+}
+
+.dataTable td.details {
+    background-color: #015807;
+    color: #fff;
+}
+
+.dataTable td.details table tr td, .dataTable tr:last-child {
+    border: none;
+}
+
+.adv-table table.display tr.odd.gradeA {
+    background-color: #F9F9F9;
+}
+
+.adv-table table.display tr.even.gradeA {
+    background-color: #FFFFFF;
+}
+
+.adv-table .dataTables_filter label input {
+    float: right;
+    margin-left: 10px;
+    width: 78%;
+}
+
+.adv-table .dataTables_filter label {
+    line-height: 33px;
+    width: 100%;
+}
+
+.adv-table .dataTables_length select {
+    display: inline-block;
+    margin: 0 10px 0 0;
+    padding: 5px 8px;
+    width: 65px;
+}
+
+.adv-table .dataTables_info, .dataTables_paginate {
+    padding: 15px 0;
+}
+.adv-table .dataTables_info {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.adv-table .dataTables_length, .adv-table .dataTables_filter {
+    padding: 15px 0;
+}
+
+.cke_chrome {
+    border: none !important;
+}
+
+.editable-table .dataTables_filter {
+    width: 80%;
+}
+
+.dataTable tr.odd.gradeX td.sorting_1, .dataTable tr.even.gradeX td.sorting_1,
+table.display tr.even.gradeX, table.display tr.gradeX, tr.even.gradeU td.sorting_1, tr.even td.sorting_1, table.display tr.even.gradeC, table.display tr.gradeC, tr.odd.gradeC td.sorting_1, table.display tr.even.gradeU, table.display tr.gradeU, tr.odd.gradeU td.sorting_1 {
+    background: none !important;
+}
+
+
+/*-------------------------------
+            LOGIN STYLES
+-------------------------------*/
+
+.login-body {
+    background: url("../images/bg.png") no-repeat fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.form-signin {
+    max-width: 400px;
+    margin: 100px auto;
+    background: #fff;
+    border-radius: 10px;
+    -webkit-border-radius: 5px;
+    -webkit-background-clip: padding-box; /* for Safari */
+    background-clip: padding-box; /* for IE9+, Firefox 4+, Opera, Chrome */
+    border: 53px solid rgba(255, 255, 255, 0.5);
+}
+
+.form-signin .form-signin-heading {
+    margin: 0;
+    padding: 25px 15px;
+    text-align: center;
+    color: #4a8fb8;
+    position: relative;
+}
+
+
+.sign-title {
+    font-size: 24px;
+    color: #4a8fb8;
+    position: absolute;
+    top: -60px;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.form-signin .checkbox {
+    margin-bottom: 14px;
+    font-size: 13px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+    color: #fff;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    bottom: -50px;
+    width: 100%;
+    left: 0;
+}
+
+.form-signin .checkbox a, .form-signin .checkbox a:hover {
+    color: #4a8fb8;
+    font-weight: bold;
+}
+
+.form-signin .form-control {
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="text"], .form-signin input[type="password"] {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border: 1px solid #eaeaec;
+    background: #eaeaec;
+    box-shadow: none;
+    font-size: 12px;
+}
+
+.form-signin .btn-login {
+    background: #4a8fb8;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    margin: 20px 0 5px;
+    padding: 5px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    font-size: 30px;
+}
+
+.form-signin .btn-login:hover {
+    background: #7a7676;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.form-signin p {
+    text-align: left;
+    color: #b6b6b6;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.form-signin a, .form-signin a:hover {
+    color: #4a8fb8;
+}
+
+.form-signin a:hover {
+    text-decoration: underline;
+}
+
+.login-wrap {
+    padding: 20px;
+    position: relative;
+}
+
+.registration {
+    color: #c7c7c7;
+    text-align: center;
+    margin-top: 15px;
+}
+.azul{
+    color: #FB1B2C;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#back-to-top {
+    position: fixed;
+    bottom: 188px;
+    right: 15%;
+    z-index: 9999;
+    width: 90px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: linear-gradient(to bottom, #fbb450 0%,#f89406 99%) !important;
+    color: #fff;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+    font-size: 0;
+}
+
+#back-to-top:before{
+  content: 'ir arriba';
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+#back-to-top:hover {
+    background: #e9ebec;
+}
+#back-to-top.show {
+    opacity: 1;
+}
+
+
+.reproductor {
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 1px 10px 5px 10px;
+    text-align: center;
+}
+#audiotov{
+    width: 100%;
+}
+
+div#dynamic-table_filter {
+    display: none;
+}
+.table{
+    font-size: 12px;
+}
